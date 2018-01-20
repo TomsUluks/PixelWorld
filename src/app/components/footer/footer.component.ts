@@ -12,4 +12,22 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
+  mediaLinks = [
+    {
+      iconSRC: '../../assets/Icons/iconmonstr-facebook.svg',
+      href: '//www.facebook.com/TomUluk'
+    },
+    {
+      iconSRC: '../../assets/Icons/iconmonstr-instagram.svg',
+      href: '//www.instagram.com/tomuluk/'
+    },
+    {
+      iconSRC: '../../assets/Icons/iconmonstr-linkedin.svg',
+      href: '//www.linkedin.com/in/toms-uluks-182460110/'
+    },
+    {
+      iconSRC: '../../assets/Icons/iconmonstr-twitter.svg',
+      href: '//twitter.com/Tin_Tommy'
+    }
+  ]
 }

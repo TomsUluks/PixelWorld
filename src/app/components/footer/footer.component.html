@@ -1,3 +1,10 @@
-<p>
-  footer works!
-</p>
+<div class="footer">
+  <div class="socialMediaWrap" fxFlex="1 1 30%">
+    <div>
+      CONTACT ME ON:
+    </div>
+      <div fxFlex="1 1 10%" *ngFor="let mediaLink of mediaLinks">
+        <a href="{{mediaLink.href}}"><img fxFill src="{{mediaLink.iconSRC}}"></a>
+      </div>
+  </div>
+</div>

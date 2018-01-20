@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AboutMeContainerComponent } from './containers/about-me-container/about-me-container.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MyWorkComponent } from './containers/my-work/my-work.component';
+import { ContactMeComponent } from './containers/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     AboutMeContainerComponent,
     FooterComponent,
+    MyWorkComponent,
+    ContactMeComponent,
   ],
   imports: [
     BrowserModule,

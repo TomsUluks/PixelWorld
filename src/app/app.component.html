@@ -1,9 +1,14 @@
-<div fxLayoutWrap fxLayoutAlign="center"> 
+<div fxLayoutWrap fxLayoutAlign="center" [@fadeAnimation]> 
     <div class="header" fxFlex="1 1 100%" >
         <app-header></app-header>
     </div>
     <div fxFlex="1 1 100%" class="fullWidthImage"></div>
     <div fxFlex="1 1 80%" class="body">
         <app-about-me></app-about-me>
+        <app-my-work></app-my-work>
+        <app-contact-me></app-contact-me>
+    </div>
+    <div class="footer" fxFlex="1 1 100%">
+        <app-footer></app-footer>
     </div>
 </div>
